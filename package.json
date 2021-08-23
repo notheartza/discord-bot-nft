@@ -1,0 +1,28 @@
+{
+  "name": "discord-bot-nft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notheartza/discord-bot-nft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notheartza/discord-bot-nft/issues"
+  },
+  "homepage": "https://github.com/notheartza/discord-bot-nft#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "node": "^16.6.1",
+    "node-cron": "^3.0.0",
+    "request-promise": "^4.2.6"
+  }
+}
