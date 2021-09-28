@@ -6,7 +6,7 @@ const axios = require('axios');
 
 const cryptocurrency = axios.create({
   baseURL: "https://pro-api.coinmarketcap.com/v1/",
-  headers: { 'X-CMC_PRO_API_KEY': '2e4fc99b-3658-4b86-805c-48f78d2c9ef9' }
+  headers: { 'X-CMC_PRO_API_KEY': process.env.APIKEY }
 })
 
 list = [
